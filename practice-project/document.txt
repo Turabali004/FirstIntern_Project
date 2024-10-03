@@ -1,0 +1,88 @@
+-Overview
+This project is a groceries website built using Vite as the frontend tool, React as the UI library,
+and TailwindCSS for styling. The application consists of four main pages: Home, About, Login, and 
+Products, with navigation handled by react-router-dom. Icons across the app are provided by the 
+react-icons library.
+
+-Table of Contents
+-Getting Started
+-Project Structure
+-Pages
+    Home
+    About
+    Login
+    Products
+-Routing
+-Styling
+-Dependencies
+
+
+Getting Started
+
+Prerequisites
+Ensure you have the following installed:
+    Node.js (version >= 12)
+    npm or yarn
+Installation
+Clone the repository:
+git clone https://github.com/Turabali004/FirstIntern_Project/tree/main/groceries-project
+cd groceries-website
+
+
+Install dependencies:
+    npm install
+# or using yarn
+yarn install
+
+Run the development server:
+    npm run dev
+# or using yarn
+yarn dev
+
+
+Open in the browser: Once the server starts, open the app at http://localhost:3000.
+
+
+Building for Production
+To create a production build of the project, use:
+    npm run build
+# or using yarn
+yarn build
+
+
+Project Structure
+public/
+  └── images/
+        ├── aboutpageimg
+        ├── homepage
+        └── product-pageimages
+
+
+
+Pages
+Home Page
+Path: /
+
+The home page serves as the landing page for the groceries website. It provides an overview
+of the offerings, with links to the product categories and promotional content.
+Icons from react-icons are used to enhance the UI.
+
+About Page
+Path: /about
+
+The about page contains information about the business, its mission, and vision.
+It includes details about the services offered by the groceries store, with relevant
+icons from the react-icons library.
+
+Login Page
+Path: /login
+
+The login page allows users to sign in to their account. This page uses forms styled
+with TailwindCSS and provides both email/password input and a button for submitting the login form.
+
+Products Page
+Path: /products
+
+This page lists all the products available in the store. Each product is displayed
+in a grid layout with an image, price, and an "Add to Cart" button. The page may also
+include filters for categories or prices.

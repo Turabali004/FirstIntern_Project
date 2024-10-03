@@ -4,7 +4,7 @@ import kiwiBg from '/public/product-pageimages/10.jfif'; // Assume kiwi backgrou
 import peachImage from '/public/product-pageimages/21.jfif';  // Replace with your actual image path
 import avocadoImage from '/public/product-pageimages/28.jfif';
 import mangoImage from "/public/product-pageimages/1.jfif"
-import {Footer} from '../components/index';
+import { Footer } from '../components/index';
 
 function Products() {
   const fruits = [
@@ -174,11 +174,11 @@ function Products() {
               </p>
             </div>
 
-            
+
           </div>
         </div>
       </div>
-      
+
 
       {/* products */}
       <div className="flex flex-wrap justify-center">
@@ -203,7 +203,7 @@ function Products() {
       </div>
 
 
-         {/* Fruites Section */}
+      {/* Fruites Section */}
       <div className="h-[660px] flex justify-center items-center bg-gray-300">
         <div className="relative bg-cover bg-center h-5/6 w-full flex items-center justify-center" style={{ backgroundImage: `url(${kiwiBg})` }}>
 
@@ -232,7 +232,7 @@ function Products() {
       </div>
 
 
-        <Footer fullWidth={true} bgColor="bg-black"/>
+      <Footer fullWidth={true} bgColor="bg-black" />
 
     </div>
   )
